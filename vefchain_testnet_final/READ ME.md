@@ -3,29 +3,69 @@ VEFCHAIN is a revolutionary blockchain project that redefines solving computatio
 
 "Solving is verification in slow motion."
 
-We introduce the Verification Elevation Factor (VEF) to measure computational effort, and create a new consensus mechanism:
+We introduce the Verification Elevation Factor (VEF) (VEF) and create a new blockchain consensus:
 Proof of Verification Elevation (PoVE).
 
-This system rewards structured intelligence — not just computational brute force.
+This system rewards structured intelligence, not brute force.
 
 🚀 Features
-⚡ VEF Measurement — Dynamic scaling of problem-solving effort
+⚡ VEF dynamic scaling
 
-🔗 Blockchain — Full custom blockchain with dynamic rewards
+🔗 Custom blockchain architecture
 
-🧠 PoVE Consensus — Reward based on solution structure
+🧠 PoVE (Proof of Verification Elevation) consensus
 
-🔒 ZK-Proof Ready — zk-compatible for problem verification
+🔒 zk-Proof compatibility
 
-🌐 Testnet — Local multi-agent simulation of solvers and verifiers
+🌐 Local testnet + multi-agent simulation
 
-📊 Streamlit Dashboard — Real-time interaction and visualization
+📊 Live Streamlit dashboard interaction
 
-🏛️ Architecture Overview
+📚 Project Structure
 
-Layer	Description
-Blockchain	Custom chain with rewards, validation, slashing
-Coordinator	Distributes problems and tasks
-Solver Nodes	Solve and submit tasks
-zk-Module	Validates problem proofs (mocked for now)
-UI	Streamlit dashboard for live control
+VEFCHAIN/
+├── blockchain.py
+├── zk_utils.py
+├── cli.py
+├── streamlit_app.py
+├── vef_simulation.py
+├── requirements.txt
+└── README.md
+
+
+📈 Potential Use Cases
+zk-verified distributed problem solving
+
+AI collaborative solving networks
+
+Proof-of-useful-work mining protocols
+
+Blockchain optimization marketplaces
+
+⚠️ Intellectual Property Rights
+Copyright © 2025 Miguel Russo Ch. P.
+
+All rights reserved. This project (VEFCHAIN) and all its associated ideas, algorithms, codebases, and designs are the exclusive intellectual property of Miguel Russo Ch. P..
+
+You may not:
+
+Redistribute this code commercially without explicit permission
+
+Sell derived products without licensing
+
+Use core VEFCHAIN inventions for private commercial gain
+
+You may:
+
+Fork for personal academic or non-commercial learning
+
+Request a license for custom use by contacting the author
+
+Commercial licensing, acquisition inquiries, and partnerships are welcome.
+Contact information: [m.r.ch.p.vefchain@gmail.com]
+
+📣 Author
+Created and developed by Miguel Russo Ch. P.
+
+🚀 Final Tip
+"If time dilates in physics, computation elevates in intelligence."

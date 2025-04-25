@@ -1,0 +1,37 @@
+VEFCHAIN — Intellectual Property License
+
+Copyright © 2025 Miguel Russo Ch. P.
+
+All rights reserved.
+
+This software, including but not limited to its code, algorithms, designs, ideas, and documentation (hereafter "VEFCHAIN"), is the exclusive intellectual property of Miguel Russo Ch. P.
+
+---
+
+Permissions:
+
+- Individuals are permitted to view, fork, and study the VEFCHAIN repository for personal and academic purposes **only**.
+- Any use of VEFCHAIN or derivative works for commercial, financial, or for-profit purposes **requires prior written permission** from Miguel Russo Ch. P.
+
+Prohibitions:
+
+- Redistribution of this project, in whole or in part, without permission is prohibited.
+- Commercial use, resale, sublicensing, or incorporation into any paid product or service without a commercial license is prohibited.
+- Misrepresentation of ownership or origin is prohibited.
+
+Licensing:
+
+- Commercial licenses, enterprise deployments, and white-label versions of VEFCHAIN are available.
+- Interested parties must contact Miguel Russo Ch. P. to negotiate licensing terms.
+
+Contact:
+
+- Email: [m.r.ch.p.vefchain@gmail.com]
+
+Disclaimer:
+
+This project is provided "as is" without warranty of any kind, express or implied. Miguel Russo Ch. P. is not liable for any damages arising from the use or misuse of this software.
+
+---
+
+Thank you for respecting the rights of innovation.
