@@ -1,0 +1,17 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+
+COPY solve_and_submit.py .
+
+
+COPY wait-for-it.sh /app/wait-for-it.sh
+
+RUN chmod +x /app/wait-for-it.sh
+
+RUN pip install requests cryptography
+
+
+CMD ["/bin/bash", "/app/wait-for-it.sh", "vef-api:8000", "--", "python3", "solve_and_submit.py"]
+

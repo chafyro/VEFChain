@@ -1,0 +1,25 @@
+version: '3.9'
+services:
+  vef-api:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+
+  vef-ui:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    volumes:
+     - ./frontend:/usr/share/nginx/html
+     - /Users/miguelpinheiro/documents/VEFCHAIN/vefchain_testnet_final/frontend/public:/usr/share/nginx/html/public
+      
+  vef-bridge:
+    build: ./ai_agent
+    volumes:
+      - ./ai_agent:/app
+    depends_on:
+      - vef-api
+    command: ["/bin/bash", "/app/wait-for-it.sh", "vef-api:8000", "--", "python3", "solve_and_submit.py"]
+
